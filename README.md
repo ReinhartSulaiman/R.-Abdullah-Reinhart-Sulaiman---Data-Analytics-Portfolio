@@ -37,7 +37,6 @@ I use Google Colaboratory as my data manipulation software.
 
 Here are some example of what I do using Python:
   - [An analysis of a case study](https://colab.research.google.com/drive/1BcvLki42I-j_qaNTCcWJ4GrZDBQakrMd?usp=sharing), in which a European bank wants to increase the usage of credit cards in partnership with various merchants through an e-commerce marketplace company. I am acting as data analyst of the bank to understand spending patterns of the e-commerce customers, create ways to reduce promotional cost, and identify business opportunities to customize reward program for loyal customers.
-  - [An analysis of another case study](https://colab.research.google.com/drive/1rXe9kt3BZalKydsaFTcEmJKAWpoxcX8v?usp=sharing), in which I act as a data analyst of a market research company, to analyze the e-commerce industry of a whole nation (Pakistan, using a public dataset). The goal of the analysis is to understand how to increase revenue of those companies, by using datasets filled with data from multiple companies, and provide a comprehensive analysis, which then I offer insights and recommendations generated from the analysis.
 
 # Data visualization skillsets:
 I use Tableau as my data visualization software.
@@ -52,3 +51,6 @@ Here are some example of what I do using Tableau:
     - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.  
     - This is the [part two](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with dual axis-line chart to represent growth over time and customer behavior across small groupings of customers.
 
+# Project Based Analysis
+With these skillsets, one must be able to put the skillsets into practice. This is my proof of work.
+  - [An analysis of a case study](https://colab.research.google.com/drive/1rXe9kt3BZalKydsaFTcEmJKAWpoxcX8v?usp=sharing), in which I act as a data analyst of a market research company, to analyze the dataset of the e-commerce industry of a whole nation (Pakistan, using an actual public dataset) of a certain time range. The goal of the analysis is to understand how to increase revenue of those companies, by using datasets filled with data from multiple companies, and provide a comprehensive analysis, which then I offer insights and recommendations generated from the analysis.
