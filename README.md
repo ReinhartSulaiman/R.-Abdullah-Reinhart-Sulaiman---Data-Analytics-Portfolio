@@ -4,6 +4,8 @@ This is my portfolio as Data Analyst, I'm still learning and honing my skills, s
 
 
 # About Me
+![My Photo](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Foto%20Professional%20-%20R.%20Abdullah%20Reinhart%20Sulaiman.png)
+
 I am R. Abdullah Reinhart Sulaiman, or Reinhart, a seasoned molecular biologist driven by a pursuit of expertise and unwavering ethical principles. I've led teams in SARS-COV-2 detection and worked as a Molecular Biology Lab Analyst, bringing practical expertise. As a Lab Assistant at Universitas Indonesia, I refined teaching and communication skills in molecular biology and genetics. My proficiency extends to technical domains, where I actively improve myself in data analytics, statistical analysis, and SQL through targeted courses and certifications. Recognizing the need for continuous improvement, I am refining critical thinking, effective communication, attention to detail, and teamwork through practical applications and collaborative projects. This holistic skill set positions me as an ideal candidate for roles demanding a profound understanding of data, especially biological data, where my proven track record in interdisciplinary communication, adaptability, and data analysis sets me apart as a valuable asset to any team.
 
 
