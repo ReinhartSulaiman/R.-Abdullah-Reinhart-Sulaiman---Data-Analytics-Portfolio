@@ -22,11 +22,14 @@ I am R. Abdullah Reinhart Sulaiman, or Reinhart, a seasoned molecular biologist 
 - **Description:** RevoU is an Online Academy that prepares students across Indonesia for most in-demand tech jobs.
 
 
-# Skills	
+# Skills
+## Hard Skillsets
 - **Data analytics** (analytical objective, data cleaning, data preparation and manipulation, descriptive statistics, exploratory data analysis, hypothesis testing, data visualization, Tableau dashboard, business acumen, and data communication)
 - **Data science** (basic R)
 - **Basic Python** (language)
 - **Basic SQL**
+
+## Soft Skillsets
 - **Teaching skill** (micro- and macro-teaching)
 - **Interpersonal skill** (active listening, communication, teamwork, leadership, emotional intelligence, business understanding, and DARCI)
 - **Intrapersonal skill** (quick-learning, good adaptability, problem-based learning, critical thinking, reading comprehension, good attention to detail and meticulous, time management, resilient and persevering)
