@@ -83,7 +83,14 @@ I choose to use Google Sheets and Microsoft Excel as my preference of data manip
 - Hypothesis testing (A/B testing)
 
 Here is an example of what I do using spreadsheet:
-  - [Case](https://docs.google.com/spreadsheets/d/1jcHgtlt0jr78Qwenxm3v6D5ltf0rRJ-BebHOoKvPedA/edit#gid=420626643).
+  - [Case 1](https://docs.google.com/spreadsheets/d/1jcHgtlt0jr78Qwenxm3v6D5ltf0rRJ-BebHOoKvPedA/edit#gid=420626643).
+    - Background: In this project, I act as data analyst and looked at Luxura's e-commerce data for luxury fashion brands Adibi, Balena, and Celinna to figure out which one performed best.
+    - Strategy: I did cleaning data and descriptive analytics to understand the data distribution and eliminate outliers using Google Sheets. Then, I compare each brand performances through EDA and statistical measurement. Lastly, using the analyzed data I gave insights and recommendations for the business problem.
+    - Result: Celinna came out on top statistically, making the most revenue. So, I made my business recommendation and suggested Luxura to focus more on Celinna in the future, but still keep Adibi and Balena around through collaborations. I also recommended targeting marketing towards high-income young and middle-aged adults, and keeping track of performance with KPIs.
+  - [Case 2](https://docs.google.com/presentation/d/1i5WUBfNMzLho2viyZ1N7qKF6kVyUKIaUpmGvgvNluDM/edit?usp=sharing).
+    - Background: Based on case 1, I analyzed Luxura's e-commerce data to understand what influences the value of orders for the brand Adibi. Specifically, I wanted to predict how much a specific customer, Mr. Chu, spends on Adibi products given his income of $1.82 million and give insight and recommendation about his spending behavior.
+    - Strategy: I looked at correlations between variables and used linear regression to create a formula for Adibi's order value. Then, I applied this formula to predict Mr. Chu's spending on Adibi products.
+    - Result: I found that the value of Adibi orders is strongly correlated with Balena and Celinna order values, as well as Adibi promotions. Therefore, these variables couldn't be used for prediction. From the regression, I identified that Adibi order value is influenced by total order quantity, Adibi, Balena, and Celinna order quantities, and Balena order value. Based on Mr. Chu's spending behavior and the regression model, it turns out he spends only $348 on Adibi products. Therefore, I recommended that Mr. Chu not worry too much about his Luxura expenses since his spending on Adibi isn't significant.
 
 ### SQL skill sets:
 I use Google BigQuery as my data manipulation software.
@@ -93,9 +100,20 @@ I use Google BigQuery as my data manipulation software.
 - Data type and datetime function
 
 Here are some example of what I do using SQL:
-  - Case 1: [How to retrieves the count of delivered orders for each unique customer city between the specified date range](https://console.cloud.google.com/bigquery?sq=594081560594:1534bc1e2aa74c239ee83b722792d8cc). It uses an inner join between the orders_dataset and customers_dataset on the customer_id. The result is then grouped by the customer city, and the count of delivered orders is calculated. Finally, the result is ordered in descending order by the count of delivered orders, and only the top 100 rows are displayed.
-  - Case 2: [How to have counts of the number of delivered orders for each combination of city and month within the specified date range](https://console.cloud.google.com/bigquery?sq=594081560594:31c2e44c264d4d238bf7d46429c3aa44). The result is then ordered in ascending order by the count of delivered orders, and only the top 100 rows are displayed.
-  - Case 3: [How to calculate the total number of distinct customers for each product category for delivered orders within a specific date range](https://console.cloud.google.com/bigquery?sq=594081560594:30c10230c8de482ba5088fbac10edd99).  It uses left joins on the order_items_dataset, products_dataset, and orders_dataset. The result is then grouped by product category, and the total number of distinct customers is calculated. The final result is ordered in descending order by the total number of customers.
+  - Case 1: [A code on how to retrieves the count of delivered orders for each unique customer city between the specified date range](https://console.cloud.google.com/bigquery?sq=594081560594:1534bc1e2aa74c239ee83b722792d8cc).
+    - Background: The task is to find the count of delivered orders for each unique customer city within a specific date range. This is done by joining the orders_dataset and customers_dataset on customer_id, grouping by city, and calculating order counts. The final output shows the top 100 cities with the highest order counts, sorted in descending order.
+    - Strategy: The strategy involves joining datasets, grouping the data, and calculating order counts to obtain the count of delivered orders for each customer city.
+    - Result: The result is a list showing the count of delivered orders for each unique customer city within the specified date range, sorted in descending order, with only the top 100 rows displayed.
+
+  - Case 2: [A code on how to have counts of the number of delivered orders for each combination of city and month within the specified date range](https://console.cloud.google.com/bigquery?sq=594081560594:31c2e44c264d4d238bf7d46429c3aa44).
+    - Background: Count how many orders were delivered for each city-month combination within a specified date range. Display the top 100 combinations with the lowest order counts.
+    - Strategy: The strategy includes gathering the data, grouping it by city and month, and count orders for each combination, then sort in ascending order by order count and display the top 100 rows.
+    - Result: The outcome is a list of order counts for each city-month combination within the specified date range, ordered in ascending order, with only the top 100 rows displayed.
+    
+  - Case 3: [A code on how to calculate the total number of distinct customers for each product category for delivered orders within a specific date range](https://console.cloud.google.com/bigquery?sq=594081560594:30c10230c8de482ba5088fbac10edd99).
+    - Background: This task aims to calculate how many unique customers purchased from each product category within a specific date range. Join relevant datasets, group by product category, and count distinct customers. The final result is ordered in descending order by the total number of customers.
+    - Strategy: The strategy includes performing left joins on relevant datasets, grouping by product category, and calculating the total number of distinct customers for each category, and the result sorted in descending order by the total number of customers.
+    - Result: The result is a list showing the total number of distinct customers for each product category for delivered orders within the specified date range, ordered in descending order.
 
 ### Python skill sets:
 I use Google Colaboratory as my data manipulation software.
@@ -107,7 +125,10 @@ I use Google Colaboratory as my data manipulation software.
 - Cluster analysis
 
 Here are some example of what I do using Python:
-  - Case: [An analysis of a case study](https://colab.research.google.com/drive/1BcvLki42I-j_qaNTCcWJ4GrZDBQakrMd?usp=sharing), in which a European bank wants to increase the usage of credit cards in partnership with various merchants through an e-commerce marketplace company. I am acting as data analyst of the bank to understand spending patterns of the e-commerce customers, create ways to reduce promotional cost, and identify business opportunities to customize reward program for loyal customers.
+  - Case: [An analysis of a case study](https://colab.research.google.com/drive/1BcvLki42I-j_qaNTCcWJ4GrZDBQakrMd?usp=sharing).
+    - Background: RevoBank collaborated with Revoshop on a promotion for their credit card users, aiming to analyze promotion performance and optimize costs.
+    - Strategy: The analysis involved data cleaning, exploration, and identifying promo-sensitive customers to evaluate promotion effectiveness. Clustering methods were then applied to segment users, followed by formulating business recommendations based on these segments.
+    - Result: Insights revealed that 62% of total sales were from promoted transactions, but promotional costs were high, cutting into 54% of revenue. Around 67% of customers were promo-sensitive, with active users dominating e-commerce engagement. Clustering identified two main segments: promo-sensitive high spenders and promo-sensitive frequent purchasers. Recommendations included optimizing promotion costs by targeting both segments and offering targeted promotions for less-sensitive segments.
 
 ### Data visualization skill sets:
 I use Tableau as my data visualization software.
@@ -119,8 +140,11 @@ I use Tableau as my data visualization software.
 
 Here are some example of what I do using Tableau:
   - Case: An analysis of a case study, in which a video game distribution company wants to understand its customers by analyzing its sales performance. I am acting as data analyst of the company to understand the sales performance of the games sold in its app, looking for reviews of the games from the customers, and identify customer bases based on location.
-    - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.  
-    - This is the [part two](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with dual axis-line chart to represent growth over time and customer behavior across small groupings of customers.
+    - Background: Steam aims to understand gaming trends, predict future patterns, and discern user demographics and preferences. Acted as a data analyst at Steam, I was tasked with providing insights to understand the current gaming ecosystem, predict future trends, and identify user demographics and preferences, by visualizing data into a comprehensive dashboard.
+    - Strategy: Analyze gaming trends by examining sales performance, user reviews, and customer bases. Utilize metrics such as hours spent gaming, game ratings, purchase behavior, and user recommendations. Employ clustering techniques to segment users based on behavior and location.
+    - Result: Insights reveal that paid games dominate the platform, indicating a need for regular promotions. Top games may suggest sequel potential or targeted promotions. Users spend an average of 108 gaming hours, with discounts potentially engaging less-active users. Each user purchases 290 products on average, showing potential for promotions. Total play hours exceed 614 million, reflecting platform popularity. Most users offer recommendations, aiding targeted marketing efforts. Strong user activity in Asia and America suggests localized marketing opportunities. Average game ratings at 77/100 indicate overall user satisfaction. Pricing and discount trends fluctuate over time, warranting targeted campaigns. Rating and price trends mirror each other, reflecting market dynamics. User behavior varies across segments, with promotions driving engagement. Recommendations include optimizing ratings, leveraging interactions, strategic pricing, regional marketing, and fostering loyalty. Advocating for data-driven decisions and regular metric monitoring are crucial.
+      - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.  
+      - This is the [part two](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with dual axis-line chart to represent growth over time and customer behavior across small groupings of customers.
 
 ### Project Based Analysis
 With these skillsets, one must be able to put the skillsets into practice. This is my proof of work.
