@@ -74,6 +74,7 @@ I am R. Abdullah Reinhart Sulaiman, or Reinhart, a seasoned molecular biologist 
 # List of Projects and Skill Sets Involved
 ### Spreadsheet skill sets:
 ![Google Sheets](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20sheets.png)
+
 I choose to use Google Sheets and Microsoft Excel as my preference of data manipulation software.
 - Data cleaning
 - Pivot table
