@@ -73,6 +73,7 @@ I am R. Abdullah Reinhart Sulaiman, or Reinhart, a seasoned molecular biologist 
 
 # List of Projects and Skill Sets Involved
 ### Spreadsheet skill sets:
+![Google Sheets](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20sheets.png)
 I choose to use Google Sheets and Microsoft Excel as my preference of data manipulation software.
 - Data cleaning
 - Pivot table
@@ -94,6 +95,7 @@ Here is an example of what I do using spreadsheet:
     - Background: Based on case 1, I analyzed Luxura's e-commerce data to understand what influences the value of orders for the brand Adibi. Specifically, I wanted to predict how much a specific customer, Mr. Chu, spends on Adibi products given his income of $1.82 million and give insight and recommendation about his spending behavior.
     - Strategy: I looked at correlations between variables and used linear regression to create a formula for Adibi's order value. Then, I applied this formula to predict Mr. Chu's spending on Adibi products.
     - Result: I found that the value of Adibi orders is strongly correlated with Balena and Celinna order values, as well as Adibi promotions. Therefore, these variables couldn't be used for prediction. From the regression, I identified that Adibi order value is influenced by total order quantity, Adibi, Balena, and Celinna order quantities, and Balena order value. Based on Mr. Chu's spending behavior and the regression model, it turns out he spends only $348 on Adibi products. Therefore, I recommended that Mr. Chu not worry too much about his Luxura expenses since his spending on Adibi isn't significant.
+
 
 
 ### SQL skill sets:
@@ -122,6 +124,7 @@ Here are some example of what I do using SQL:
     - Result: The result is a list showing the total number of distinct customers for each product category for delivered orders within the specified date range, ordered in descending order.
 
 
+
 ### Python skill sets:
 ![Google Colaboratory](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20pyhton.png)
 
@@ -140,7 +143,10 @@ Here are some example of what I do using Python:
     - Result: Insights revealed that 62% of total sales were from promoted transactions, but promotional costs were high, cutting into 54% of revenue. Around 67% of customers were promo-sensitive, with active users dominating e-commerce engagement. Clustering identified two main segments: promo-sensitive high spenders and promo-sensitive frequent purchasers. Recommendations included optimizing promotion costs by targeting both segments and offering targeted promotions for less-sensitive segments.
 
 
+
 ### Data visualization skill sets:
+![Here is a snippet of the dashboard.](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20tableau.jpg)
+
 I use Tableau as my data visualization software.
 - Connect and combine datasets
 - Data formatting
@@ -153,14 +159,18 @@ Here are some example of what I do using Tableau:
     - Background: Steam aims to understand gaming trends, predict future patterns, and discern user demographics and preferences. Acted as a data analyst at Steam, I was tasked with providing insights to understand the current gaming ecosystem, predict future trends, and identify user demographics and preferences, by visualizing data into a comprehensive dashboard.
     - Strategy: Analyze gaming trends by examining sales performance, user reviews, and customer bases. Utilize metrics such as hours spent gaming, game ratings, purchase behavior, and user recommendations. Employ clustering techniques to segment users based on behavior and location.
     - Result: Insights revealed that paid games dominate the platform, indicating a need for regular promotions. Top games may suggest sequel potential or targeted promotions. Users spend an average of 108 gaming hours, with discounts potentially engaging less-active users. Each user purchases 290 products on average, showing potential for promotions. Total play hours exceed 614 million, reflecting platform popularity. Most users offer recommendations, aiding targeted marketing efforts. Strong user activity in Asia and America suggests localized marketing opportunities. Average game ratings at 77/100 indicate overall user satisfaction. Pricing and discount trends fluctuate over time, warranting targeted campaigns. Rating and price trends mirror each other, reflecting market dynamics. User behavior varies across segments, with promotions driving engagement. Recommendations include optimizing ratings, leveraging interactions, strategic pricing, regional marketing, and fostering loyalty. Advocating for data-driven decisions and regular metric monitoring are crucial.
-![Google Colaboratory](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20tableau.png)
-
-      - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.  
+      - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.
+      - ![Here is a snippet of the dashboard.](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20tableau.png)
+  
       - This is the [part two](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with dual axis-line chart to represent growth over time and customer behavior across small groupings of customers.
+      - ![Here is a snippet of the dashboard.](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20tableau%202.png)
+
 
 
 ### Project Based Analysis
-With these skillsets, one must be able to put the skillsets into practice. This is my proof of work.
+![Database used for Final Project](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20deepp.png)
+
+With these skillsets, one must be able to put all the skillsets into practice. This is my proof of work.
   - Case: [An analysis of a case study](https://colab.research.google.com/drive/1rXe9kt3BZalKydsaFTcEmJKAWpoxcX8v?usp=sharing), in which I act as a data analyst of a market research company, to analyze the dataset of the e-commerce industry of a whole nation (Pakistan, using an actual public dataset) of a certain time range. The goal of the analysis is to understand how to increase revenue of those companies, by using datasets filled with data from multiple companies, and provide a comprehensive analysis, which then I offer insights and recommendations generated from the analysis.
     - Background: SparkTrend Analysis Co. aims to boost revenue in Pakistani e-commerce by analyzing transaction data from March 2016 to August 2018. The focus is on understanding sales trends, customer behaviors, and areas needing improvement.
     - Strategy: Utilize data cleaning, analysis, and visualization techniques to extract insights. I used Python and spreadsheet (Microsoft Excel) to do data cleaning and data analysis. Key areas of examination include popular product categories, payment methods, order statuses, and their impact on revenue. Uncover correlations and hidden patterns within the dataset. The data then visualized using Tableau.
