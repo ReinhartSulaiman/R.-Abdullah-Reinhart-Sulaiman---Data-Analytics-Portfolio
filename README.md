@@ -87,6 +87,9 @@ Here is an example of what I do using spreadsheet:
     - Background: In this project, I act as data analyst and looked at Luxura's e-commerce data for luxury fashion brands Adibi, Balena, and Celinna to figure out which one performed best.
     - Strategy: I did cleaning data and descriptive analytics to understand the data distribution and eliminate outliers using Google Sheets. Then, I compare each brand performances through EDA and statistical measurement. Lastly, using the analyzed data I gave insights and recommendations for the business problem.
     - Result: Celinna came out on top statistically, making the most revenue. So, I made my business recommendation and suggested Luxura to focus more on Celinna in the future, but still keep Adibi and Balena around through collaborations. I also recommended targeting marketing towards high-income young and middle-aged adults, and keeping track of performance with KPIs.
+
+![Here is a snippet of what I do in Case 1](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20Spreadsheet.png)
+
   - [Case 2](https://docs.google.com/presentation/d/1i5WUBfNMzLho2viyZ1N7qKF6kVyUKIaUpmGvgvNluDM/edit?usp=sharing).
     - Background: Based on case 1, I analyzed Luxura's e-commerce data to understand what influences the value of orders for the brand Adibi. Specifically, I wanted to predict how much a specific customer, Mr. Chu, spends on Adibi products given his income of $1.82 million and give insight and recommendation about his spending behavior.
     - Strategy: I looked at correlations between variables and used linear regression to create a formula for Adibi's order value. Then, I applied this formula to predict Mr. Chu's spending on Adibi products.
@@ -94,6 +97,8 @@ Here is an example of what I do using spreadsheet:
 
 
 ### SQL skill sets:
+![Google BigQuery](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20SQL.jpg)
+
 I use Google BigQuery as my data manipulation software.
 - Standard/basic query syntax
 - Aggregate function
@@ -118,6 +123,8 @@ Here are some example of what I do using SQL:
 
 
 ### Python skill sets:
+![Google Colaboratory](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20pyhton.png)
+
 I use Google Colaboratory as my data manipulation software.
 - Data cleaning, including: changing data types, removing irrelevant values and duplicates, and removing or filling missing data
 - Data manipulation, including: handling outlier(s) using IQR method, combine and merge datasets, and data aggregation
@@ -146,6 +153,8 @@ Here are some example of what I do using Tableau:
     - Background: Steam aims to understand gaming trends, predict future patterns, and discern user demographics and preferences. Acted as a data analyst at Steam, I was tasked with providing insights to understand the current gaming ecosystem, predict future trends, and identify user demographics and preferences, by visualizing data into a comprehensive dashboard.
     - Strategy: Analyze gaming trends by examining sales performance, user reviews, and customer bases. Utilize metrics such as hours spent gaming, game ratings, purchase behavior, and user recommendations. Employ clustering techniques to segment users based on behavior and location.
     - Result: Insights revealed that paid games dominate the platform, indicating a need for regular promotions. Top games may suggest sequel potential or targeted promotions. Users spend an average of 108 gaming hours, with discounts potentially engaging less-active users. Each user purchases 290 products on average, showing potential for promotions. Total play hours exceed 614 million, reflecting platform popularity. Most users offer recommendations, aiding targeted marketing efforts. Strong user activity in Asia and America suggests localized marketing opportunities. Average game ratings at 77/100 indicate overall user satisfaction. Pricing and discount trends fluctuate over time, warranting targeted campaigns. Rating and price trends mirror each other, reflecting market dynamics. User behavior varies across segments, with promotions driving engagement. Recommendations include optimizing ratings, leveraging interactions, strategic pricing, regional marketing, and fostering loyalty. Advocating for data-driven decisions and regular metric monitoring are crucial.
+![Google Colaboratory](https://github.com/ReinhartSulaiman/R.-Abdullah-Reinhart-Sulaiman---Data-Analytics-Portfolio/blob/main/Thumbnail%20tableau.png)
+
       - This is the [part one](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with scorecards, simple statistics of the game sales performance, and a map representing the statistics of customer bases locations.  
       - This is the [part two](https://public.tableau.com/views/W9W10_SEP23_R_AbdullahReinhart_Sulaiman_intermediate_2/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) of the two dashboards. This dashboard is filled with dual axis-line chart to represent growth over time and customer behavior across small groupings of customers.
 
